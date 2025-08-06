@@ -4,12 +4,10 @@ from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModel
 from torch.cuda.amp import autocast, GradScaler
 import faiss
-from typing import List, Dict
 import json
 import csv
 import random
 import numpy as np
-from typing import List, Dict
 from tqdm import tqdm
 import time
 
